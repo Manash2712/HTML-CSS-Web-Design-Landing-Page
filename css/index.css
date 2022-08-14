@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Secular+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+nav>img{
+    height: 35px;
+}
+
+.nav-items{
+    position: absolute;
+    left: 450px;
+    top: -10px;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-right: 50px;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.signin-btn{
+    position: absolute;
+    right: 150px;
+    height: 20px;
+    width: 80px;
+    font-family: "roboto";
+    border-radius: 20px;
+    border: 0px solid rgba(0,0,0,0);
+    background-image:linear-gradient(to right, #965cf2, #ff8adc);
+    color: #fff;
+}
+
+.imgs-div img:last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 100vh;
+    /* height: 900px;
+    width: 900px; */
+    background-clip: border-box;
+}
+
+.imgs-div img:nth-child(3){
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    height: 650px;
+}
+
+.imgs-div img:nth-child(1){
+    position: absolute;
+    left: 780px;
+    top: 500px;
+}
+
+.imgs-div img:nth-child(2){
+    position: absolute;
+    left: 840px;
+    top: 500px;
+}
+
+.left-section h1{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    font-family: "Secular One";
+    font-size: 90px;
+    font-weight: 700;
+    color: #3e4794;
+}
+
+.left-section h4{
+    position: absolute;
+    top: 310px;
+    left: 150px;
+    word-wrap: break-word;
+    inline-size: 340px;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.learn-more-btn{
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    height: 45px;
+    width: 200px;
+    border-radius: 24px;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    border: 0px solid rgba(0,0,0,0);
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+}
